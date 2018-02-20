@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+
+        
+        <div class="container">
+            <div class="col-md-10">
+                <table class="table table-hover" id="tabela-clientes">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Função</th>
+                            <th scope="col">Email</th>
+                        </tr>
+                    </thead>
+                    <tbody id="body-tabela-cleintes">
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>CEO</td>
+                            <td>mark@facebook.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Developer</td>
+                            <td>jacob@dell.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>Tester</td>
+                            <td>larry@twitter.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-md-6">
+                <form id="form-cadastro">
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="nome" placeholder="Nome">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="text" class="form-control" id="funcao" placeholder="Função">
+
+                    </div>
+                    <div class="form-group">
+
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+
+                    </div>
+                    <button type="submit" id="enviar">Enviar</button>
+                </form>
+
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
